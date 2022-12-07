@@ -9,7 +9,7 @@ exports.handler = async (event, context, cb) => {
   return {
     statusCode: 200,
     //here in body must pass string so if object comes let it convert in to string by JSON.stringify
-    body: "our first netlify function example by netflix",
+    body: "our first netlify function example",
     // body: JSON.stringify(person),
   };
 };
